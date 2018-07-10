@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" href="index.html"><img src="Img/logo.jpg" alt="logo" title="Интернет-магазин умных часов &laquo;Smart Time&raquo;"></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Главная</a></li>
+                    <!--<li><a href="#about">About</a></li>-->
+                    <li class="dropdown"> <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="catalog.html">Список товаров</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="catalog/watch01.html">Samsung Gear S3</a></li>
+                            <li><a href="catalog/watch02.html">Huawei Watch 2</a></li>
+                            <li><a href="catalog/watch03.html">LG W270</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <!-- Begin page content -->
+    <div class="container">
+        <div class="page-header">
+            <h1>&laquo;Контакты&raquo;</h1> </div>
+        <form>
+            <h3>Напишите нам</h3>
+            <div class="form-group">
+                <label for="text1">Имя</label>
+                <input type="text" class="form-control" id="text1" placeholder="Введите Ваше Имя"> </div>
+            <div class="form-group">
+                <label for="Email1">Введите Email адрес</label>
+                <input type="email" class="form-control" id="Email1" placeholder="Ваш Email"> </div>
+            <div class="form-group">
+                <label for="text2">Тема</label>
+                <input type="text" class="form-control" id="text2" placeholder="Введите тему сообщения"> </div>
+            <textarea class="form-control" rows="5" placeholder="Введите сообщение"></textarea>
+            <div class="checkbox"> <i>Вам понравился наш магазин?</i>
+                <label>
+                    <input type="radio" name="answer">ДА</label>
+                <label>
+                    <input type="radio" name="answer">НЕТ</label>
+            </div>
+            <button type="reset" class="btn btn-default">Очистить</button>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+            <br>
+            <br>
+            <h3>Адрес</h3> <i>Наш телефон: 8(800)5005050</i>
+            <br> <i>Наш адрес: Тихорецкая ул., 41, Казань, Респ. Татарстан, 420054</i>
+            <br> <i>Наш Email: info@smarttime.ru</i>
+            <br> <i>Самовывоз возможен только по предварительной договоренности с менеджером.</i>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8986.457850937437!2d49.121569!3d55.730452!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eac1a5ef22be5%3A0x67b4122261b4235e!2z0KLQuNGF0L7RgNC10YbQutCw0Y8g0YPQuy4sIDQxLCDQmtCw0LfQsNC90YwsINCg0LXRgdC_LiDQotCw0YLQsNGA0YHRgtCw0L0sIDQyMDA1NA!5e0!3m2!1sru!2sru!4v1516015356092" width="400" height="300"  style="border:0" allowfullscreen></iframe>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">&copy;&nbsp;&quot;Все права защищены&quot;</p>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

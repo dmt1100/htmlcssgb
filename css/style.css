@@ -1,0 +1,62 @@
+.navbar-brand img {
+    height: 30px;
+}
+
+.page-header h1 {
+    text-shadow: 2px 2px rgb(255, 255, 153);
+}
+
+.row img {
+    outline: 3px solid darkblue;
+    height: 230px;
+    width: 175px;
+    display: block;
+    margin: 0 auto;
+}
+.row img:hover{
+    outline: none;
+}
+.row a {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.product {
+    outline: 3px solid darkblue;
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.product:hover{
+    outline: none;
+}
+
+.description {
+    height: 100px;
+}
+
+h3 {
+    background-color: #eaeaea;
+}
+
+#buy{
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;    
+}
+
+#buy:hover{
+    background-color: yellow;
+}
+
+#buy:active{
+    background-color: lightgreen;
+}
+
+.footer{
+    text-align: right;
+}
